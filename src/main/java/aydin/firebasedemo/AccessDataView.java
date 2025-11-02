@@ -4,6 +4,19 @@ import javafx.beans.property.ReadOnlyBooleanProperty;
 import javafx.beans.property.ReadOnlyBooleanWrapper;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.cloud.firestore.Firestore;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.cloud.FirestoreClient;
+
+
+
+
+import com.google.firebase.auth.*;
+import com.google.cloud.firestore.*;
+import com.google.api.core.ApiFuture;
 
 public class AccessDataView{
 
