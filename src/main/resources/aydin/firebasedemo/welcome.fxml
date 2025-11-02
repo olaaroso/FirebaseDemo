@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="aydin.firebasedemo.WelcomeController"
+      alignment="CENTER" spacing="20" style="-fx-padding: 40;">
+    <Label text="Welcome to Firebase Demo!" style="-fx-font-size: 18px;"/>
+    <Button text="Register" fx:id="btnRegister" onAction="#handleRegister"/>
+    <Button text="Sign In" fx:id="btnSignIn" onAction="#handleSignIn"/>
+</VBox>
